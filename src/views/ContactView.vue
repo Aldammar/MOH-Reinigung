@@ -4,6 +4,11 @@
       <SectionHeader title="Kontakt" subtitle="Senden Sie uns Ihre Anfrage – wir melden uns schnellstmöglich zurück." />
 
       <div class="contact-grid">
+
+        <article class="contact-card">
+          <ContactForm />
+        </article>
+
         <article class="contact-card">
           <h3>Kontaktinformationen</h3>
           <p>MOH Reinigung</p>
@@ -12,9 +17,6 @@
           <p>Region: deutschlandweit</p>
         </article>
 
-        <article class="contact-card">
-          <ContactForm />
-        </article>
       </div>
     </div>
   </section>

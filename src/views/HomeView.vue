@@ -10,8 +10,9 @@
         </p>
 
         <div class="hero-actions">
-          <RouterLink class="button-primary" to="/kontakt">Anfrage senden</RouterLink>
+          
           <RouterLink class="button-secondary" to="/leistungen">Unsere Leistungen</RouterLink>
+          <RouterLink class="button-primary" to="/kontakt">Anfrage senden</RouterLink>
         </div>
 
         <div class="hero-meta">
@@ -39,22 +40,30 @@
     
 
       <div class="service-grid">
-        <article class="service-card">
-          <h3>Büroreinigung</h3>
-          <p>Saubere Arbeitsplätze, hygienische Sanitärbereiche und gepflegte Gemeinschaftsflächen.</p>
-        </article>
-        <article class="service-card">
-          <h3>Glasreinigung</h3>
-          <p>Fenster und Glasfronten streifenfrei reinigen – innen wie außen.</p>
-        </article>
-        <article class="service-card">
-          <h3>Pflege von Objekten</h3>
-          <p>Treppenhäuser, Eingangsbereiche und Lagerflächen hygienisch sauber halten.</p>
-        </article>
-        <article class="service-card">
-          <h3>Hotel und Restaurant Reinigung</h3>
-          <p>Umfassende Reinigung für Hotels und Restaurants, von Gästezimmern bis zur Küche.</p>
-        </article>
+        <RouterLink to="/leistungen/bueroreinigung" class="service-link">
+          <article class="service-card">
+            <h3>Büroreinigung</h3>
+            <p>Saubere Arbeitsplätze, hygienische Sanitärbereiche und gepflegte Gemeinschaftsflächen.</p>
+          </article>
+        </RouterLink>
+        <RouterLink to="/leistungen/glasreinigung" class="service-link">
+          <article class="service-card">
+            <h3>Glasreinigung</h3>
+            <p>Fenster und Glasfronten streifenfrei reinigen – innen wie außen.</p>
+          </article>
+        </RouterLink>
+        <RouterLink to="/leistungen/pflege-objekten" class="service-link">
+          <article class="service-card">
+            <h3>Pflege von Objekten</h3>
+            <p>Treppenhäuser, Eingangsbereiche und Lagerflächen hygienisch sauber halten.</p>
+          </article>
+        </RouterLink>
+        <RouterLink to="/leistungen/hotel-restaurant-reinigung" class="service-link">
+          <article class="service-card">
+            <h3>Hotel und Restaurant Reinigung</h3>
+            <p>Umfassende Reinigung für Hotels und Restaurants, von Gästezimmern bis zur Küche.</p>
+          </article>
+        </RouterLink>
       </div>
     </div>
   </section>

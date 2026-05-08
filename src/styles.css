@@ -222,6 +222,18 @@ a {
   object-fit: cover;
 }
 
+.service-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-link:hover .service-card {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(20, 33, 61, 0.12);
+}
+
 
 .hero-image img {
   width: 100%;
@@ -246,9 +258,15 @@ a {
 
 .hero-actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 1rem;
   margin-top: 2rem;
+}
+
+.hero-actions .button-primary,
+.hero-actions .button-secondary {
+  width: 100%;
+  justify-content: center;
 }
 
 .hero-meta {
