@@ -36,9 +36,7 @@
     <div class="container">
       <SectionHeader title="Unsere Kernkompetenzen" subtitle="Von Büro und Praxis bis Objektpflege: Wir sorgen für glänzende Ergebnisse bei jeder Art von Reinigung." />
 
-      <div class="service-hero">
-        <img :src="serviceImage" alt="Dienstleistungsillustration" class="service-image" />
-      </div>
+    
 
       <div class="service-grid">
         <article class="service-card">
@@ -53,6 +51,10 @@
           <h3>Pflege von Objekten</h3>
           <p>Treppenhäuser, Eingangsbereiche und Lagerflächen hygienisch sauber halten.</p>
         </article>
+        <article class="service-card">
+          <h3>Hotel und Restaurant Reinigung</h3>
+          <p>Umfassende Reinigung für Hotels und Restaurants, von Gästezimmern bis zur Küche.</p>
+        </article>
       </div>
     </div>
   </section>
@@ -61,6 +63,6 @@
 <script setup lang="ts">
 import SectionHeader from '../components/SectionHeader.vue';
 import { RouterLink } from 'vue-router';
-import heroImage from '../assets/bodenputzen.jpg';
-import serviceImage from '../assets/service-cleaning.svg';
+import serviceImage from '../assets/glas-reinigung.jpeg';
+import heroImage  from '../assets/Couple as a professional cleaners.jpeg';
 </script>

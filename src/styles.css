@@ -199,6 +199,30 @@ a {
   justify-content: center;
 }
 
+.service-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.service-image-container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 18px 40px rgba(20, 33, 61, 0.08);
+}
+
+.service-detail-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
 .hero-image img {
   width: 100%;
   max-width: 34rem;

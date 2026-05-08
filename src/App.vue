@@ -13,7 +13,7 @@
         </div>
 
         <nav class="main-nav">
-          <RouterLink to="/">Start</RouterLink>
+          <RouterLink to="/MOH-Reinigung">Start</RouterLink>
           <RouterLink to="/leistungen">Leistungen</RouterLink>
           <RouterLink to="/ueber-uns">Über uns</RouterLink>
           <RouterLink to="/kontakt">Kontakt</RouterLink>
